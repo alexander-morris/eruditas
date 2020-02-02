@@ -10,7 +10,7 @@
     padding-left: 0.5em;
 }
 
-#joinNow .col-sm-4 {
+#joinNow .col-sm-6 {
     text-align: center;
 }
 
@@ -33,4 +33,38 @@
 
 #philanthropists i, #philanthropists h4 {
     color: $philanthropists;
+}
+
+.aboutUsVideo iframe {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+#aboutUs .row {
+    min-height: 50vh;
+}
+
+.aboutUsVideo iframe {
+    width: 100%;
+    height: -webkit-fill-available;
+    max-height: 50vh;
+}
+
+.tileHeader a {
+    min-width: 100%;
+    padding: 1em;
+    background:$brand-color;
+    width: 5em !important;
+    margin: 0.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+section#aboutUs {
+    background: $brand-color;
+    color: white;
+}
+#aboutUs h1 {
+    padding-left: 0;
+    color: white;
 }

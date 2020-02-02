@@ -3370,7 +3370,7 @@ section.container.imageWideContainer { padding: 0; }
 
 .container p { padding-left: 0.5em; }
 
-#joinNow .col-sm-4 { text-align: center; }
+#joinNow .col-sm-6 { text-align: center; }
 
 #joinNow i { font-size: 3em; margin-bottom: 1em; }
 
@@ -3381,5 +3381,17 @@ section.container.imageWideContainer { padding: 0; }
 #challenges i, #challenges h4 { color: #d2a809; }
 
 #philanthropists i, #philanthropists h4 { color: #056d21; }
+
+.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; }
+
+#aboutUs .row { min-height: 50vh; }
+
+.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; max-height: 50vh; }
+
+.tileHeader a { min-width: 100%; padding: 1em; background: #0995ea; width: 5em !important; margin: 0.5em; text-transform: uppercase; font-weight: 600; color: white; }
+
+section#aboutUs { background: #0995ea; color: white; }
+
+#aboutUs h1 { padding-left: 0; color: white; }
 
 /*# sourceMappingURL=homepage.css.map */
