@@ -3181,7 +3181,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 /* Misc */
 .navbar-brand span { color: black; letter-spacing: 0.15em; }
 
-.navbar-brand strong { color: #829ae0; }
+.navbar-brand strong { color: #0995ea; }
 
 .content { font-size: 50px; }
 
@@ -3223,7 +3223,7 @@ nav { background: white; border: 0.025px solid #d3d3d359; }
 
 nav a.nav-link { color: black !important; text-transform: uppercase; font-weight: 500; }
 
-a.nav-link.join { background: #829ae0; color: white !important; font-weight: 600; padding-left: 1em !important; padding-right: 1em !important; margin-left: 1em; }
+a.nav-link.join { background: #0995ea; color: white !important; font-weight: 600; padding-left: 1em !important; padding-right: 1em !important; margin-left: 1em; }
 
 a.nav-link.join:hover { color: white !important; text-decoration: underline !important; }
 
@@ -3231,7 +3231,7 @@ li.nav-item { margin-left: 0.5em; }
 
 ul.navbar-nav.ml-auto { margin-right: 1em; }
 
-a.nav-link:hover { color: #829ae0 !important; }
+a.nav-link:hover { color: #0995ea !important; }
 
 .navbar-brand img { padding-left: 1em; }
 
@@ -3240,12 +3240,12 @@ a.nav-link:hover { color: #829ae0 !important; }
 /* Social Nav */
 ul.navbar-nav.flex-row { padding-left: 1em; }
 
-nav i { color: #829ae0; }
+nav i { color: #0995ea; }
 
 a.nav-link i:hover { color: #0d72aa; }
 
 /* Mobile Nav Toggle */
-button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { background-color: #829ae0; }
+button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { background-color: #0995ea; }
 
 /* Jumbotron */
 .tileHeader { background: url(/assets/img/headerBackgroundTile.jpg); background-size: cover; }
@@ -3279,7 +3279,7 @@ button.mc_signup:hover { background: #1f98a37a; }
 /* Footer alignment issues */
 .footer .row, .footer .col-md-6, .container-fluid.footer { max-height: unset !important; height: fit-content !important; min-height: fit-content !important; }
 
-.container-fluid.footer, .container-fluid.footer i, .container-fluid.footer a { background: #829ae0; color: white; }
+.container-fluid.footer, .container-fluid.footer i, .container-fluid.footer a { background: #0995ea; color: white; }
 
 /* Social Row */
 .row.headerMessage { text-align: center; display: block; }
@@ -3292,7 +3292,7 @@ button.mc_signup:hover { background: #1f98a37a; }
 
 .row.socialIcons { width: -moz-fit-content; width: fit-content; }
 
-.socialIcons i { color: #829ae0; }
+.socialIcons i { color: #0995ea; }
 
 /* Jumbotron */
 .tileHeader h1 { color: black; }
@@ -3318,7 +3318,7 @@ button.mc_signup:hover { background: #1f98a37a; }
 
 .tileHeader input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
 
-.tileHeader input#mc-embedded-subscribe { width: 100%; background: #829ae0; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
+.tileHeader input#mc-embedded-subscribe { width: 100%; background: #0995ea; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
 
 /* Call to action */
 section.container.bciCallToAction { background: url(/assets/img/cta_background.jpg); background-size: cover; color: white; }
@@ -3373,5 +3373,13 @@ section.container.imageWideContainer { padding: 0; }
 #joinNow .col-sm-4 { text-align: center; }
 
 #joinNow i { font-size: 3em; margin-bottom: 1em; }
+
+#joinNow h4 { text-transform: uppercase; }
+
+#entrepreneurs i, #entrepreneurs h4 { color: #0b299a; }
+
+#challenges i, #challenges h4 { color: #d2a809; }
+
+#philanthropists i, #philanthropists h4 { color: #056d21; }
 
 /*# sourceMappingURL=homepage.css.map */

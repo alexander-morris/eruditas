@@ -18,3 +18,19 @@
     font-size: 3em;
     margin-bottom: 1em;
 }
+
+#joinNow h4 {
+    text-transform: uppercase;
+}
+
+#entrepreneurs i, #entrepreneurs h4 {
+    color: $entrepreneurs;
+}
+
+#challenges i, #challenges h4 {
+    color: $challenges;
+}
+
+#philanthropists i, #philanthropists h4 {
+    color: $philanthropists;
+}

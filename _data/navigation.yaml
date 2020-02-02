@@ -1,10 +1,10 @@
-- name: Connect
+- name: Build
   link: /#connect
   class: 
-- name: Gather
+- name: Challenge
   link: /#gather
   class: 
-- name: Host
+- name: Fund
   link: /#business
   class: 
 # - name: Press
