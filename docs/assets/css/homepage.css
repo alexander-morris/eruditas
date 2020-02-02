@@ -3368,4 +3368,10 @@ section.container.imageWideContainer { padding: 0; }
   .mobileImageWideContainer img { width: 100%; }
   .container .row { margin: 0; width: 100%; max-width: unset; } }
 
+.container p { padding-left: 0.5em; }
+
+#joinNow .col-sm-4 { text-align: center; }
+
+#joinNow i { font-size: 3em; margin-bottom: 1em; }
+
 /*# sourceMappingURL=homepage.css.map */

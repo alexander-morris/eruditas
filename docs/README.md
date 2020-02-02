@@ -1,7 +1,11 @@
-# Eruditas
+# The Local
 
-We're building a new kind of social business financing. 
+## We're building a new kind of media. 
 
+### Privacy
 
+### Locality
+
+### Connection
 
 
