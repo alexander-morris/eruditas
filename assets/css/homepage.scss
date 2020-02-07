@@ -12,6 +12,8 @@
 
 #joinNow .col-sm-6 {
     text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #joinNow i {
@@ -84,4 +86,13 @@ section.container {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+}
+#joinNow .row {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#joinNow b {
+    padding: 1em;
+    background: #0995ea;
+    color: white;
 }

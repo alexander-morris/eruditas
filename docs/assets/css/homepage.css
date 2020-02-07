@@ -3370,7 +3370,7 @@ section.container.imageWideContainer { padding: 0; }
 
 .container p { padding-left: 0.5em; }
 
-#joinNow .col-sm-6 { text-align: center; }
+#joinNow .col-sm-6 { text-align: center; padding-top: 2em; padding-bottom: 2em; }
 
 #joinNow i { font-size: 3em; margin-bottom: 1em; }
 
@@ -3399,5 +3399,9 @@ i.fa.fa-envelope { color: #0995ea; background: white; }
 section.container { min-height: 90vh !important; }
 
 .lightbulbImg { padding: 2em; padding-top: 0; margin-top: -2em; height: 50%; width: auto; margin-left: auto; margin-right: auto; }
+
+#joinNow .row { padding-top: 4em; padding-bottom: 4em; }
+
+#joinNow b { padding: 1em; background: #0995ea; color: white; }
 
 /*# sourceMappingURL=homepage.css.map */
