@@ -3394,4 +3394,10 @@ section#aboutUs { background: #0995ea; color: white; }
 
 #aboutUs h1 { padding-left: 0; color: white; }
 
+i.fa.fa-envelope { color: #0995ea; background: white; }
+
+section.container { min-height: 90vh !important; }
+
+.lightbulbImg { padding: 2em; padding-top: 0; margin-top: -2em; height: 50%; width: auto; margin-left: auto; margin-right: auto; }
+
 /*# sourceMappingURL=homepage.css.map */

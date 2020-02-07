@@ -1,11 +1,11 @@
 - name: Build
-  link: /#connect
+  link: /#joinNow
   class: 
 - name: Challenge
-  link: /#gather
+  link: /#aboutUs
   class: 
 - name: Fund
-  link: /#business
+  link: /#joinNow
   class: 
 # - name: Press
 #   link: /#press
