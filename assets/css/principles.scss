@@ -158,3 +158,37 @@ section#download {
     vertical-align: middle;
 }
 
+section#sectors {
+    background: #2d6d21;
+    color: white;
+}
+
+#sectors h1, #sectors h3, #sectors span, #sectors .row {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#sectors i {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+header.jumbotron.text-left.tileHeader {
+    background: #0995ea;
+}
+
+.tileHeader p, .tileHeader h1 {
+    color: white;
+}
+
+
+.tileHeader a {
+    border: solid 1px white;
+}
+
+.tileHeader a:hover {
+    color: black;
+    border: solid 1px black;
+}
