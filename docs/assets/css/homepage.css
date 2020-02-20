@@ -3308,7 +3308,7 @@ button.mc_signup:hover { background: #1f98a37a; }
 
 #philanthropists i, #philanthropists h4 { color: #056d21; }
 
-.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; }
+.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; min-height: 500px; margin-bottom: 2.5em; margin-top: 1.5em; }
 
 #aboutUs .row { min-height: 50vh; }
 
@@ -3437,6 +3437,9 @@ section#principles { background: #2d6d21; color: white; display: table; }
   section.container.mobileImageWideContainer { padding: 0; display: block; }
   .mobileImageWideContainer img { width: 100%; }
   .container .row { margin: 0; width: 100%; max-width: unset; }
-  #aboutUs .col-sm-4 { max-width: unset; } }
+  #aboutUs .col-sm-4 { max-width: unset; }
+  section#aboutUs { display: block; }
+  #aboutUs .row { display: block; }
+  #aboutUs .col-sm-8 { width: calc(100vw - 2em) !important; display: block; } }
 
 /*# sourceMappingURL=homepage.css.map */

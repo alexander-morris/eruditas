@@ -15,3 +15,7 @@ Add changes to the branch:
 `git commit -m "A simple commit message explaining proposed changes"` Adds a commit of your current files to the branch
 `git push` Pushes your new branch to the main repo
 
+# To Do
+1. Check on correct vertical align handling for bootstrap col-sm-x
+
+2. Fix video scaling so it's consistant aspect ratio (min?)

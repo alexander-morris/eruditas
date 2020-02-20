@@ -33,6 +33,9 @@
 .aboutUsVideo iframe {
     width: 100%;
     height: -webkit-fill-available;
+    min-height: 500px;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
 }
 
 #aboutUs .row {
