@@ -1,11 +1,11 @@
-- name: Build
-  link: /#joinNow
+- name: Finance
+  link: /#fiscal
   class: 
-- name: Challenge
-  link: /#aboutUs
+- name: Grow
+  link: /#impact
   class: 
-- name: Fund
-  link: /#joinNow
+- name: Track
+  link: /#audit
   class: 
 # - name: Press
 #   link: /#press
