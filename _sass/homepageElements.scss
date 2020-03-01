@@ -118,27 +118,27 @@ section#principles h1 {
     display: block;
     color: white;
 }
-#principles a, #download a{
+#principles a, #download a, #contactUs a {
     padding: 0.25em;
     border: solid 1px white;
     margin-top: 1em;
     text-transform: uppercase;
 }
 
-#principles a:hover, #download a:hover {
+#principles a:hover, #download a:hover, #contactUs a {
     color: #95c0da;
     border: solid 1px #95c0da;
 }
 
 
-#download h1, #download span, #download a {
+#download h1, #download span, #download a, #contactUs h1, #contactUs span, #contactUs a {
     text-align: center;
-    max-width: 100%;
+    max-width: 80%;
     margin: auto;
     display: block;
 }
 
-#download a {
+#download a, #contactUs a {
     max-width: 200px;
     border: 1px black solid;
     color: black;
@@ -146,10 +146,10 @@ section#principles h1 {
     margin-top: 2em;
 }
 
-section#download {
+section#download, section#contactUs {
     display: table;
 }
-#download .row {
+#download .row, #contactUs .row {
     display: table-cell;
     vertical-align: middle;
 }
@@ -343,4 +343,22 @@ section#principles {
 #principles .row {
     display: table-cell;
     vertical-align: middle;
+}
+
+.teal {
+    color: $brand-color;
+}
+
+.tileHeader a.callToActionButton {
+    background: $brand-red;
+}
+
+.container a.callToActionButton {
+    margin-left: 0.5em;
+    padding: 0.5em;
+    background: #0995ea;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 1em;
+    padding-right: 1em;
 }

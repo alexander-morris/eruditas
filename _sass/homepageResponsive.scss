@@ -87,6 +87,12 @@
 		width: calc(100vw - 2em) !important;
 		display: block;
 	}
+	.tileHeader a {
+		float: left;
+		text-align: center;
+		font-size: 1.5em;
+		padding: 0.5em;
+	}
 }
 
 
