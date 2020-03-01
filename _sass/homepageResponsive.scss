@@ -71,6 +71,28 @@
 	    width: 100%;
 	    max-width: unset;
 	}
+	#aboutUs .col-sm-4 {
+		max-width: unset;
+	}
+
+	section#aboutUs {
+		display: block;
+	}
+
+	#aboutUs .row {
+		display: block;
+	}
+
+	#aboutUs .col-sm-8 {
+		width: calc(100vw - 2em) !important;
+		display: block;
+	}
+	.tileHeader a {
+		float: left;
+		text-align: center;
+		font-size: 1.5em;
+		padding: 0.5em;
+	}
 }
 
 

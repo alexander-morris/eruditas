@@ -3294,6 +3294,64 @@ button.mc_signup:hover { background: #1f98a37a; }
 
 .socialIcons i { color: #0995ea; }
 
+.container p { padding-left: 0.5em; }
+
+#joinNow .col-sm-6 { text-align: center; padding-top: 2em; padding-bottom: 2em; }
+
+#joinNow i { font-size: 3em; margin-bottom: 1em; }
+
+#joinNow h4 { text-transform: uppercase; }
+
+#entrepreneurs i, #entrepreneurs h4 { color: #0b299a; }
+
+#challenges i, #challenges h4 { color: #d2a809; }
+
+#philanthropists i, #philanthropists h4 { color: #056d21; }
+
+.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; min-height: 500px; margin-bottom: 2.5em; margin-top: 1.5em; }
+
+#aboutUs .row { min-height: 50vh; }
+
+.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; max-height: 50vh; }
+
+.tileHeader a { min-width: 100%; padding: 1em; background: #0995ea; width: 5em !important; margin: 0.5em; text-transform: uppercase; font-weight: 600; color: white; }
+
+section#aboutUs { background: #0995ea; color: white; }
+
+#aboutUs h1 { padding-left: 0; color: white; }
+
+i.fa.fa-envelope { color: #0995ea; background: white; }
+
+section.container { min-height: 90vh !important; }
+
+.lightbulbImg { padding: 2em; padding-top: 0; margin-top: -2em; height: 50%; width: auto; margin-left: auto; margin-right: auto; }
+
+#joinNow .row { padding-top: 4em; padding-bottom: 4em; }
+
+#joinNow b { padding: 1em; background: #0995ea; color: white; }
+
+section#principles { background: #2d6d21; color: white; }
+
+section#principles h1 { color: white; }
+
+#principles .col-sm-8 { padding-top: 2em; }
+
+#principles .col-sm-4 { padding-top: 5em; font-size: 1.25em; }
+
+#principles span, #principles a { text-align: center; display: block; color: white; }
+
+#principles a, #download a, #contactUs a { padding: 0.25em; border: solid 1px white; margin-top: 1em; text-transform: uppercase; }
+
+#principles a:hover, #download a:hover, #contactUs a { color: #95c0da; border: solid 1px #95c0da; }
+
+#download h1, #download span, #download a, #contactUs h1, #contactUs span, #contactUs a { text-align: center; max-width: 80%; margin: auto; display: block; }
+
+#download a, #contactUs a { max-width: 200px; border: 1px black solid; color: black; font-weight: 600; margin-top: 2em; }
+
+section#download, section#contactUs { display: table; }
+
+#download .row, #contactUs .row { display: table-cell; vertical-align: middle; }
+
 /* Jumbotron */
 .tileHeader h1 { color: black; }
 
@@ -3349,6 +3407,24 @@ section.container.imageWideContainer { padding: 0; }
 
 .mobileImageWideContainer { display: none; }
 
+section#aboutUs { display: table; }
+
+#aboutUs .col-sm-4 { max-width: 200px; }
+
+#aboutUs .col-sm-4, #aboutUs .col-sm-8 { display: table-cell; vertical-align: middle; width: unset; }
+
+#aboutUs .row { min-height: fit-content; display: table-row; }
+
+section#principles { background: #2d6d21; color: white; display: table; }
+
+#principles .row { display: table-cell; vertical-align: middle; }
+
+.teal { color: #0995ea; }
+
+.tileHeader a.callToActionButton { background: #d40808; }
+
+.container a.callToActionButton { margin-left: 0.5em; padding: 0.5em; background: #0995ea; color: white; text-transform: uppercase; padding-left: 1em; padding-right: 1em; }
+
 /* Tablet */
 /* Mobile */
 @media screen and (max-width: 600px) { header.jumbotron.text-left.tileHeader { padding-top: 0; }
@@ -3366,64 +3442,11 @@ section.container.imageWideContainer { padding: 0; }
   /* ImageWideView Container */
   section.container.mobileImageWideContainer { padding: 0; display: block; }
   .mobileImageWideContainer img { width: 100%; }
-  .container .row { margin: 0; width: 100%; max-width: unset; } }
-
-.container p { padding-left: 0.5em; }
-
-#joinNow .col-sm-6 { text-align: center; padding-top: 2em; padding-bottom: 2em; }
-
-#joinNow i { font-size: 3em; margin-bottom: 1em; }
-
-#joinNow h4 { text-transform: uppercase; }
-
-#entrepreneurs i, #entrepreneurs h4 { color: #0b299a; }
-
-#challenges i, #challenges h4 { color: #d2a809; }
-
-#philanthropists i, #philanthropists h4 { color: #056d21; }
-
-.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; }
-
-#aboutUs .row { min-height: 50vh; }
-
-.aboutUsVideo iframe { width: 100%; height: -webkit-fill-available; max-height: 50vh; }
-
-.tileHeader a { min-width: 100%; padding: 1em; background: #0995ea; width: 5em !important; margin: 0.5em; text-transform: uppercase; font-weight: 600; color: white; }
-
-section#aboutUs { background: #0995ea; color: white; }
-
-#aboutUs h1 { padding-left: 0; color: white; }
-
-i.fa.fa-envelope { color: #0995ea; background: white; }
-
-section.container { min-height: 90vh !important; }
-
-.lightbulbImg { padding: 2em; padding-top: 0; margin-top: -2em; height: 50%; width: auto; margin-left: auto; margin-right: auto; }
-
-#joinNow .row { padding-top: 4em; padding-bottom: 4em; }
-
-#joinNow b { padding: 1em; background: #0995ea; color: white; }
-
-section#principles { background: #2d6d21; color: white; }
-
-section#principles h1 { color: white; }
-
-#principles .col-sm-8 { padding-top: 2em; }
-
-#principles .col-sm-4 { padding-top: 5em; font-size: 1.25em; }
-
-#principles span, #principles a { text-align: center; display: block; color: white; }
-
-#principles a, #download a { padding: 0.25em; border: solid 1px white; margin-top: 1em; text-transform: uppercase; }
-
-#principles a:hover, #download a:hover { color: #95c0da; border: solid 1px #95c0da; }
-
-#download h1, #download span, #download a { text-align: center; max-width: 100%; margin: auto; display: block; }
-
-#download a { max-width: 200px; border: 1px black solid; color: black; font-weight: 600; margin-top: 2em; }
-
-section#download { display: table; }
-
-#download .row { display: table-cell; vertical-align: middle; }
+  .container .row { margin: 0; width: 100%; max-width: unset; }
+  #aboutUs .col-sm-4 { max-width: unset; }
+  section#aboutUs { display: block; }
+  #aboutUs .row { display: block; }
+  #aboutUs .col-sm-8 { width: calc(100vw - 2em) !important; display: block; }
+  .tileHeader a { float: left; text-align: center; font-size: 1.5em; padding: 0.5em; } }
 
 /*# sourceMappingURL=homepage.css.map */
