@@ -18,4 +18,3 @@ Add changes to the branch:
 # To Do
 1. Check on correct vertical align handling for bootstrap col-sm-x
 
-2. Fix video scaling so it's consistant aspect ratio (min?)
